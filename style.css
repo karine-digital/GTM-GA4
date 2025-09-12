@@ -22,19 +22,20 @@ a:hover {
 body {
 	background: #EEE url(img/bg.gif);
 	color:#8DDE68;
-	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	font: normal 16px "Lucida Sans Unicode",sans-serif;
 	margin: 0;
 }
 input {
 	color: #555;
-	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+	font: normal 16px "Lucida Sans Unicode",sans-serif;
 }
 p,cite,code,ul {
-	font-size: 0.5em;
+	font-size: 18px;
 	padding-bottom: 1.2em;
 }
 h1 {
-	font-size: 3.5em;
+	color: #367EA6;
+	font-size: 24px;
 	margin-bottom: 4px;
 }
 code {
@@ -43,7 +44,7 @@ code {
 	border-left: 6px solid #39F;
 	color: #555;
 	display: block;
-	font: normal 1.1em "Lucida Sans Unicode",serif;
+	font: normal 16px "Lucida Sans Unicode",serif;
 	margin-bottom: 12px;
 	padding: 8px 10px;
 	white-space: pre;
@@ -52,11 +53,18 @@ cite {
 	background: url(img/quote.gif) no-repeat;
 	color: #666;
 	display: block;
-	font: normal 1.3em "Lucida Sans Unicode",serif;
+	font: normal 16px "Lucida Sans Unicode",serif;
 	padding-left: 28px;
 }
-h1,h2,h3 {
+h2 {
 	color: #367EA6;
+	font-size: 20px;
+	padding-top: 6px;
+}
+}
+h3 {
+	color: #367EA6;
+	font-size: 18px;
 	padding-top: 6px;
 }
 
